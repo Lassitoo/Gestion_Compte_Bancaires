@@ -1,0 +1,47 @@
+
+
+
+h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#login-form, #agent-login{
+    width: 50%;
+    margin: 0 auto;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+label{
+    font-weight: bold;
+}
+
+input[type="email"], input[type="password"] {
+    width: 60%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.2);
+}
+
+button{
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+a{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
